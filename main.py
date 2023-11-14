@@ -1,9 +1,6 @@
 # use the https://uptimerobot.com/dashboard#mainDashboard for keep flask server alive
 import os
 from background import keep_alive
-# import pip
-
-# pip.main(['install', 'pytelegrambotapi'])
 import telebot
 import time
 import pytz
