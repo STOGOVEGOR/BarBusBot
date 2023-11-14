@@ -39,9 +39,10 @@ BUSBASE = {
 }
 
 BUSSCHEDULE = (
-600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000, 2100, 2200, 2300, 600,
-700, 800, 900, 1000
+    600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000, 2100, 2200, 2300, 600,
+    700, 800, 900, 1000
 )
+
 
 # ======== CALC SECTION ==========
 def get_current_time() -> datetime:
@@ -173,7 +174,6 @@ def lets_start(message):
 #     bot.send_message(message.chat.id,
 #                      'Уточните остановку',
 #                      reply_markup=keyboard)
-
 
 
 @bot.message_handler(commands=['menu'])
